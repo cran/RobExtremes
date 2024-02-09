@@ -55,9 +55,9 @@ We robust (high-breakdown) starting estimators for
 \itemize{
   \item GPD (PickandsEstimator, medkMAD, medSn, medQn)
   \item GEV (PickandsEstimator)
-  \item Pareto (Cramér-von-Mises-Minimum-Distance-Estimator)
+  \item Pareto (CramÃ©r-von-Mises-Minimum-Distance-Estimator)
   \item Weibull (the quantile based estimator of Boudt/Caliskan/Croux)
-  \item Gamma (Cramér-von-Mises-Minimum-Distance-Estimator)
+  \item Gamma (CramÃ©r-von-Mises-Minimum-Distance-Estimator)
 }
 For all these families, of course, MLEs and Minimum-Distance-Estimators
 are also available through package "distrMod". %\cr
@@ -91,13 +91,13 @@ but also (adopted from package "distrMod")
 \details{
 \tabular{ll}{
 Package: \tab RobExtremes \cr
-Version: \tab 1.2.0 \cr
-Date: \tab 2019-04-08 \cr
+Version: \tab 1.3.0 \cr
+Date: \tab 2024-02-07 \cr
 Title: \tab Optimally Robust Estimation for Extreme Value Distributions\cr
 Description: \tab Optimally robust estimation for extreme value distributions
 using S4 classes and methods \cr
 \tab (based on packages distr, distrEx, distrMod, RobAStBase, and ROptEst). \cr
-Depends: \tab R(>= 3.4), methods, distrMod(>= 2.8.1), ROptEst(>= 1.2.0), robustbase, evd \cr
+Depends: \tab R(>= 3.4), methods, distrMod(>= 2.8.0), ROptEst(>= 1.2.0), robustbase, evd \cr
 Suggests: \tab RUnit(>= 0.4.26), ismev(>= 1.39) \cr
 Imports: \tab RobAStRDA, distr, distrEx(>= 2.8.0), RandVar, RobAStBase(>= 1.2.0), startupmsg,actuar \cr
 Authors:
@@ -116,9 +116,9 @@ Contact: \tab peter.ruckdeschel@uni-oldenburg.de\cr
 ByteCompile: \tab yes \cr
 LazyLoad: \tab yes \cr
 License: \tab LGPL-3 \cr
-URL: \tab http://robast.r-forge.r-project.org/\cr
-Encoding: \tab latin1 \cr
-VCS/SVNRevision: \tab 1220 \cr
+URL: \tab https://r-forge.r-project.org/projects/robast/\cr
+Encoding: \tab UTF-8 \cr
+VCS/SVNRevision: \tab 1290 \cr
 }
 }
 \section{Classes}{
@@ -230,26 +230,26 @@ Nataliya Horbenko \email{nhorbenko@gmail.com},\cr
 \emph{Maintainer:}  Peter Ruckdeschel \email{peter.ruckdeschel@uni-oldenburg.de}
 }
 \references{
-M. Kohl (2005): \emph{Numerical Contributions to the Asymptotic
-Theory of Robustness.} PhD Thesis. Bayreuth. Available as
-\url{http://r-kurs.de/RRlong.pdf}
-P. Ruckdeschel, M. Kohl, T. Stabla, F. Camphausen (2006):
-S4 Classes for Distributions, \emph{R News}, \emph{6}(2), 2-6. 
-\url{https://CRAN.R-project.org/doc/Rnews/Rnews_2006-2.pdf}
-M. Kohl, P. Ruckdeschel, H. Rieder (2010):
-Infinitesimally Robust Estimation in General Smoothly Parametrized Models.
-\emph{Stat. Methods Appl.}, \bold{19}, 333--354.\cr
-Ruckdeschel, P. and Horbenko, N. (2011): Optimally-Robust Estimators in Generalized
-Pareto Models. \emph{Statistics}. \bold{47}(4), 762--791.\cr
-Ruckdeschel, P. and Horbenko, N. (2012): Yet another breakdown point notion:
-EFSBP --illustrated at scale-shape models. \emph{Metrika}, \bold{75}(8),
-1025--1047.
-%a more detailed manual for \pkg{distr}, \pkg{distrSim}, \pkg{distrTEst}, and \pkg{RobExtremes} may be downloaded from
-%\url{http://www.uni-bayreuth.de/departments/math/org/mathe7/DISTR/distr.pdf}\cr
-A vignette for packages \pkg{distr}, \pkg{distrSim}, \pkg{distrTEst},
-and \pkg{RobExtremes} is included into the mere documentation package \pkg{distrDoc}
-and may be called by \code{require("distrDoc");vignette("distr")}.
-A homepage to this package is available under \url{http://robast.r-forge.r-project.org/}.
+  Horbenko, N., Ruckdeschel, P., and Bae, T. (2011): Robust Estimation of Operational Risk.
+  Journal of Operational Risk \emph{6}(2), 3-30. \cr
+  M. Kohl (2005). Numerical Contributions to the Asymptotic Theory of Robustness.
+  Dissertation. University of Bayreuth. \url{https://epub.uni-bayreuth.de/id/eprint/839/2/DissMKohl.pdf}.\cr
+  M. Kohl, P. Ruckdeschel, and H. Rieder (2010). Infinitesimally Robust Estimation in 
+  General Smoothly Parametrized Models. Statistical Methods and Applications \emph{19}(3): 333-354.
+  \doi{10.1007/s10260-010-0133-0}.\cr
+  Ruckdeschel, P. and Horbenko, N. (2013): Optimally-Robust Estimators in Generalized
+  Pareto Models. \emph{Statistics}. \bold{47}(4), 762--791.
+  \doi{10.1080/02331888.2011.628022}.\cr
+  Ruckdeschel, P. and Horbenko, N. (2012): Yet another breakdown point notion:
+  EFSBP --illustrated at scale-shape models. \emph{Metrika}, \bold{75}(8),
+  1025--1047. \doi{10.1007/s00184-011-0366-4}.\cr
+  Ruckdeschel, P., Kohl, M., Stabla, T., and Camphausen, F. (2006):
+  S4 Classes for Distributions, \emph{R News}, \emph{6}(2), 2-6. 
+  \url{https://CRAN.R-project.org/doc/Rnews/Rnews_2006-2.pdf}.\cr
+  A vignette for packages \pkg{distr}, \pkg{distrSim}, \pkg{distrTEst},
+  and \pkg{RobExtremes} is included into the mere documentation package \pkg{distrDoc}
+  and may be called by \code{require("distrDoc");vignette("distr")}.
+  A homepage to this package is available under \url{http://robast.r-forge.r-project.org/}.\cr
 }
 \section{Start-up-Banner}{
 You may suppress the start-up banner/message completely by setting
