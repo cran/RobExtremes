@@ -1,4 +1,4 @@
-9fb08d4d6824846f2894dcf30143d090 *DESCRIPTION
+40c20b78d78ba3e983bef0e76646954f *DESCRIPTION
 7fbe11f575630c9b4fc357060025c85e *NAMESPACE
 a5a0982f118dd2bb23096821a88384b0 *R/00fromRobAStRDA.R
 d330e4dae99880500eefbe1b54ce3049 *R/AllClass.R
@@ -56,13 +56,13 @@ dfa53cbe74a7eb4ce754bdeb3300707c *inst/AddMaterial/interpolation/checkSn.R
 7567ada7c1b6ba76f2a9bffcf2130b2b *inst/AddMaterial/interpolation/interpolationscripts.R
 ed796af64c1ea99f4b1188b4db9fafaa *inst/AddMaterial/interpolation/plotInterpol.R
 9f85ee8f8fc83df4ee9cc2bb5f2fe2c0 *inst/CITATION
-0816a37ff16625ff3d7b51172948b46f *inst/NEWS
+b490053a4f92d540480bd7ea441b0632 *inst/NEWS
 1c35c806e0617d1ec16400335d914db8 *inst/TOBEDONE
 2d1382d81fc63ca17da256bbae8fe803 *inst/scripts/ExamplesForDiagnosticsWrappersWithGEVGPD.R
 d6a0f219015ba6487d9c8b1fa97eee22 *inst/scripts/GEVcheck.R
 d02e18a271ad579471a84d0db12a2e33 *inst/scripts/GumbelLocationModel.R
 2163cf88ab40915c5775ce6527f98b1b *inst/scripts/RobFitsAtRealData.R
-b99f8a3f226196aa069abf5e6d72be0f *man/0RobExtremes-package.Rd
+3a7da7008f0323e46fb210043a82b1cc *man/0RobExtremes-package.Rd
 f8f2dc610d3dd65451bd664ef8c0e85b *man/E.Rd
 0bf9e59f91f4a7915cb3d57dbfe51e88 *man/GEV-class.Rd
 567a808af34f5fcfa548042a45bbbd30 *man/GEV.Rd
@@ -107,5 +107,3 @@ a537d71a5ff325c504a9d7098e35188f *man/internalEstimatorReturnClasses-class.Rd
 174114852481629011e140ac3c12ca72 *man/rescaleFunction-methods.Rd
 2adb5173152b39fce37adb49979f38d7 *man/validParameter-methods.Rd
 ee35e26926817eb5bd5f5a5c01f74305 *src/kMad.c
-312cb7a9080a4c7f41e671025e891962 *tests/Examples/RobExtremes-Ex_i386.Rout.save
-83761f7ace4cfd0b15361088cf35e8fe *tests/Examples/RobExtremes-Ex_x64.Rout.save
